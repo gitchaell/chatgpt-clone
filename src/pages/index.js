@@ -9,7 +9,7 @@ function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>midu Chat GPT</title>
+        <title>Chat GPT</title>
       </Head>
       <div className='w-full relative bg-gptgray h-screen'>
         <Aside />
@@ -36,7 +36,7 @@ function UserAvatar() {
   return (
     <img
       alt='Foto de midu'
-      src='https://pbs.twimg.com/profile_images/1613612257015128065/oA0Is67J_400x400.jpg'
+      src='https://avatars.githubusercontent.com/u/37460957?v=4'
     />
   )
 }
